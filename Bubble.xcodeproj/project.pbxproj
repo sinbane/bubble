@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC1D75D21BA5C3950032E950 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1D75D11BA5C3950032E950 /* SocketIO.framework */; };
 		BC2FEB1C1B9E06B600A5D3C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB1B1B9E06B600A5D3C8 /* AppDelegate.swift */; };
-		BC2FEB1E1B9E06B600A5D3C8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB1D1B9E06B600A5D3C8 /* FirstViewController.swift */; };
-		BC2FEB201B9E06B600A5D3C8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB1F1B9E06B600A5D3C8 /* SecondViewController.swift */; };
+		BC2FEB1E1B9E06B600A5D3C8 /* PlazaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB1D1B9E06B600A5D3C8 /* PlazaViewController.swift */; };
+		BC2FEB201B9E06B600A5D3C8 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB1F1B9E06B600A5D3C8 /* EventViewController.swift */; };
 		BC2FEB231B9E06B600A5D3C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2FEB211B9E06B600A5D3C8 /* Main.storyboard */; };
 		BC2FEB251B9E06B600A5D3C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2FEB241B9E06B600A5D3C8 /* Images.xcassets */; };
 		BC2FEB281B9E06B600A5D3C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC2FEB261B9E06B600A5D3C8 /* LaunchScreen.xib */; };
 		BC2FEB341B9E06B600A5D3C8 /* BubbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB331B9E06B600A5D3C8 /* BubbleTests.swift */; };
+		BC2FEB3E1BA590C300A5D3C8 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB3D1BA590C300A5D3C8 /* ChatViewController.swift */; };
+		BC2FEB401BA5932900A5D3C8 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB3F1BA5932900A5D3C8 /* CurrentLocationViewController.swift */; };
+		BCECD9511BA6048400981A57 /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECD9501BA6048400981A57 /* LocationDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +31,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC1D75D11BA5C3950032E950 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = Bubble/Carthage/Build/iOS/SocketIO.framework; sourceTree = "<group>"; };
 		BC2FEB161B9E06B600A5D3C8 /* Bubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2FEB1A1B9E06B600A5D3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC2FEB1B1B9E06B600A5D3C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC2FEB1D1B9E06B600A5D3C8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		BC2FEB1F1B9E06B600A5D3C8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BC2FEB1D1B9E06B600A5D3C8 /* PlazaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlazaViewController.swift; sourceTree = "<group>"; };
+		BC2FEB1F1B9E06B600A5D3C8 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		BC2FEB221B9E06B600A5D3C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC2FEB241B9E06B600A5D3C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BC2FEB271B9E06B600A5D3C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BC2FEB2D1B9E06B600A5D3C8 /* BubbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2FEB321B9E06B600A5D3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC2FEB331B9E06B600A5D3C8 /* BubbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTests.swift; sourceTree = "<group>"; };
+		BC2FEB3D1BA590C300A5D3C8 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		BC2FEB3F1BA5932900A5D3C8 /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
+		BCECD9501BA6048400981A57 /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC1D75D21BA5C3950032E950 /* SocketIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +70,7 @@
 		BC2FEB0D1B9E06B600A5D3C8 = {
 			isa = PBXGroup;
 			children = (
+				BC1D75D11BA5C3950032E950 /* SocketIO.framework */,
 				BC2FEB181B9E06B600A5D3C8 /* Bubble */,
 				BC2FEB301B9E06B600A5D3C8 /* BubbleTests */,
 				BC2FEB171B9E06B600A5D3C8 /* Products */,
@@ -80,12 +90,15 @@
 			isa = PBXGroup;
 			children = (
 				BC2FEB1B1B9E06B600A5D3C8 /* AppDelegate.swift */,
-				BC2FEB1D1B9E06B600A5D3C8 /* FirstViewController.swift */,
-				BC2FEB1F1B9E06B600A5D3C8 /* SecondViewController.swift */,
+				BC2FEB1D1B9E06B600A5D3C8 /* PlazaViewController.swift */,
+				BC2FEB3F1BA5932900A5D3C8 /* CurrentLocationViewController.swift */,
+				BC2FEB1F1B9E06B600A5D3C8 /* EventViewController.swift */,
 				BC2FEB211B9E06B600A5D3C8 /* Main.storyboard */,
 				BC2FEB241B9E06B600A5D3C8 /* Images.xcassets */,
 				BC2FEB261B9E06B600A5D3C8 /* LaunchScreen.xib */,
 				BC2FEB191B9E06B600A5D3C8 /* Supporting Files */,
+				BC2FEB3D1BA590C300A5D3C8 /* ChatViewController.swift */,
+				BCECD9501BA6048400981A57 /* LocationDetailsViewController.swift */,
 			);
 			path = Bubble;
 			sourceTree = "<group>";
@@ -125,6 +138,7 @@
 				BC2FEB121B9E06B600A5D3C8 /* Sources */,
 				BC2FEB131B9E06B600A5D3C8 /* Frameworks */,
 				BC2FEB141B9E06B600A5D3C8 /* Resources */,
+				BC1D75D31BA5C3D20032E950 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -210,14 +224,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BC1D75D31BA5C3D20032E950 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Bubble/Carthage/Build/iOS/SocketIO.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "copy the frameworks with carthage";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC2FEB121B9E06B600A5D3C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC2FEB201B9E06B600A5D3C8 /* SecondViewController.swift in Sources */,
+				BCECD9511BA6048400981A57 /* LocationDetailsViewController.swift in Sources */,
+				BC2FEB201B9E06B600A5D3C8 /* EventViewController.swift in Sources */,
+				BC2FEB401BA5932900A5D3C8 /* CurrentLocationViewController.swift in Sources */,
 				BC2FEB1C1B9E06B600A5D3C8 /* AppDelegate.swift in Sources */,
-				BC2FEB1E1B9E06B600A5D3C8 /* FirstViewController.swift in Sources */,
+				BC2FEB3E1BA590C300A5D3C8 /* ChatViewController.swift in Sources */,
+				BC2FEB1E1B9E06B600A5D3C8 /* PlazaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +378,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Bubble/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Bubble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,6 +392,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Bubble/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Bubble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +455,7 @@
 				BC2FEB391B9E06B600A5D3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC2FEB3A1B9E06B600A5D3C8 /* Build configuration list for PBXNativeTarget "BubbleTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +464,7 @@
 				BC2FEB3C1B9E06B600A5D3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
