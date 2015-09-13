@@ -6,4 +6,8 @@
 //  Copyright (c) 2015 Sinbane. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class ChatViewController: UIViewController {
+    
+}

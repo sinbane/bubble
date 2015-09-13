@@ -1,6 +1,5 @@
 //
-//  FirstViewController.swift
-//  Bubble
+//  Plaza Tab
 //
 //  Created by Sinbane on 9/8/15.
 //  Copyright (c) 2015 Sinbane. All rights reserved.
@@ -8,7 +7,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class PlazaViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  Event Tab
 //  Bubble
 //
 //  Created by Sinbane on 9/8/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class EventViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
