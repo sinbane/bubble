@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC1D75D21BA5C3950032E950 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1D75D11BA5C3950032E950 /* SocketIO.framework */; };
 		BC2FEB1C1B9E06B600A5D3C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB1B1B9E06B600A5D3C8 /* AppDelegate.swift */; };
 		BC2FEB1E1B9E06B600A5D3C8 /* PlazaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB1D1B9E06B600A5D3C8 /* PlazaViewController.swift */; };
 		BC2FEB201B9E06B600A5D3C8 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB1F1B9E06B600A5D3C8 /* EventViewController.swift */; };
@@ -17,6 +16,8 @@
 		BC2FEB341B9E06B600A5D3C8 /* BubbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB331B9E06B600A5D3C8 /* BubbleTests.swift */; };
 		BC2FEB3E1BA590C300A5D3C8 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB3D1BA590C300A5D3C8 /* ChatViewController.swift */; };
 		BC2FEB401BA5932900A5D3C8 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB3F1BA5932900A5D3C8 /* CurrentLocationViewController.swift */; };
+		BCCAFA301BAB40A000765DC7 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCAFA2F1BAB40A000765DC7 /* SocketIO.framework */; };
+		BCCAFA371BAB430400765DC7 /* SocketIO.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCCAFA361BAB430400765DC7 /* SocketIO.framework.dSYM */; };
 		BCECD9511BA6048400981A57 /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECD9501BA6048400981A57 /* LocationDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +31,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BCCAFA311BAB412900765DC7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				BCCAFA371BAB430400765DC7 /* SocketIO.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		BC1D75D11BA5C3950032E950 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = Bubble/Carthage/Build/iOS/SocketIO.framework; sourceTree = "<group>"; };
 		BC2FEB161B9E06B600A5D3C8 /* Bubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2FEB1A1B9E06B600A5D3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC2FEB1B1B9E06B600A5D3C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +58,8 @@
 		BC2FEB331B9E06B600A5D3C8 /* BubbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTests.swift; sourceTree = "<group>"; };
 		BC2FEB3D1BA590C300A5D3C8 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		BC2FEB3F1BA5932900A5D3C8 /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
+		BCCAFA2F1BAB40A000765DC7 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = Carthage/Build/iOS/SocketIO.framework; sourceTree = "<group>"; };
+		BCCAFA361BAB430400765DC7 /* SocketIO.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SocketIO.framework.dSYM; path = Carthage/Build/iOS/SocketIO.framework.dSYM; sourceTree = "<group>"; };
 		BCECD9501BA6048400981A57 /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC1D75D21BA5C3950032E950 /* SocketIO.framework in Frameworks */,
+				BCCAFA301BAB40A000765DC7 /* SocketIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +85,8 @@
 		BC2FEB0D1B9E06B600A5D3C8 = {
 			isa = PBXGroup;
 			children = (
-				BC1D75D11BA5C3950032E950 /* SocketIO.framework */,
+				BCCAFA361BAB430400765DC7 /* SocketIO.framework.dSYM */,
+				BCCAFA2F1BAB40A000765DC7 /* SocketIO.framework */,
 				BC2FEB181B9E06B600A5D3C8 /* Bubble */,
 				BC2FEB301B9E06B600A5D3C8 /* BubbleTests */,
 				BC2FEB171B9E06B600A5D3C8 /* Products */,
@@ -139,6 +155,7 @@
 				BC2FEB131B9E06B600A5D3C8 /* Frameworks */,
 				BC2FEB141B9E06B600A5D3C8 /* Resources */,
 				BC1D75D31BA5C3D20032E950 /* ShellScript */,
+				BCCAFA311BAB412900765DC7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -173,7 +190,9 @@
 		BC2FEB0E1B9E06B600A5D3C8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Sinbane;
 				TargetAttributes = {
 					BC2FEB151B9E06B600A5D3C8 = {
@@ -231,7 +250,7 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Bubble/Carthage/Build/iOS/SocketIO.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SocketIO.framework",
 			);
 			outputPaths = (
 			);
@@ -314,6 +333,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -381,9 +401,11 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Bubble/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Bubble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sinbane.seattle.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -395,9 +417,11 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Bubble/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Bubble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sinbane.seattle.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -416,6 +440,7 @@
 				);
 				INFOPLIST_FILE = BubbleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sinbane.seattle.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bubble.app/Bubble";
 			};
@@ -431,6 +456,7 @@
 				);
 				INFOPLIST_FILE = BubbleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sinbane.seattle.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bubble.app/Bubble";
 			};

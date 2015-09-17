@@ -79,8 +79,8 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
     }
     
     // MARK: - CLLocationManagerDelegate
-    func locationManager(manager: CLLocationManager!, didFailWithError error: NSError!) {
-        println("didFailWithError \(error)")
+    func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
+        print("didFailWithError \(error)")
         
         if error.code == CLError.LocationUnknown.rawValue {
             return
@@ -93,9 +93,9 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
         configureGetButton()
     }
     
-    func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
-        let newLocation = locations.last as! CLLocation
-        println("didUpdateLocations \(newLocation)")
+    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let newLocation = locations.last!
+        print("didUpdateLocations \(newLocation)")
         
         // 1
         if newLocation.timestamp.timeIntervalSinceNow < -5 {
@@ -122,7 +122,7 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
             
             // 5
             if newLocation.horizontalAccuracy <= locationManager.desiredAccuracy {
-                print("*** We're done!")
+                print("*** We're done!", terminator: "")
                 stopLocationManager()
                 configureGetButton()
                 
@@ -133,16 +133,16 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
             
             // reverse geocoding
             if !performingReverseGeocoding {
-                println("*** Going to geocode")
+                print("*** Going to geocode")
                 
                 performingReverseGeocoding = true
-                geocoder.reverseGeocodeLocation(location, completionHandler: {
+                geocoder.reverseGeocodeLocation(location!, completionHandler: {
                     placemarks, error in
                     
-                    println("*** Found placemarks: \(placemarks), error: \(error)")
+                    print("*** Found placemarks: \(placemarks), error: \(error)")
                     self.lastLocationError = error
-                    if error == nil && !placemarks.isEmpty {
-                        self.placemark = placemarks.last as? CLPlacemark
+                    if error == nil && !placemarks!.isEmpty {
+                        self.placemark = placemarks!.last!
                     } else {
                         self.placemark = nil
                     }
@@ -154,7 +154,7 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
         } else if distance < 1.0 {
             let timeInterval = newLocation.timestamp.timeIntervalSinceDate(location!.timestamp)
             if timeInterval > 10 {
-                println("*** Force done!")
+                print("*** Force done!")
                 stopLocationManager()
                 updateLabels()
                 configureGetButton()
@@ -241,7 +241,7 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
     }
     
     func didTimeOut() {
-        println("*** Time Out")
+        print("*** Time Out")
         
         if location == nil {
             stopLocationManager()
