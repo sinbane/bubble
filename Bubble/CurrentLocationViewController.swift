@@ -234,10 +234,26 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
     }
     
     func stringFromPlacemark(placemark: CLPlacemark) -> String {
-        return
-            "\(placemark.subThoroughfare) \(placemark.thoroughfare)\n" + // house number + street name
-            "\(placemark.locality) \(placemark.administrativeArea) " + // city + province/state
-            "\(placemark.postalCode)"
+        var line1 = ""
+        if let s = placemark.subThoroughfare {// house number
+            line1 += s + " "
+        }
+        if let s = placemark.thoroughfare {// street name
+            line1 += s
+        }
+        
+        var line2 = ""
+        if let s = placemark.locality {// city
+            line2 += s + " "
+        }
+        if let s = placemark.administrativeArea {// province/state
+            line2 += s + " "
+        }
+        if let s = placemark.postalCode {
+            line2 += s
+        }
+        
+        return line1 + "\n" + line2
     }
     
     func didTimeOut() {

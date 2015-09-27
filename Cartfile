@@ -1,1 +1,2 @@
 github "socketio/socket.io-client-swift" ~> 3.0.2
+github "Alamofire/Alamofire" ~> 2.0

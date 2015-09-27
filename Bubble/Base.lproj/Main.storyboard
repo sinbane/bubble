@@ -143,7 +143,7 @@
         <scene sceneID="WdR-DX-Enb">
             <objects>
                 <tableViewController id="A07-3f-nET" customClass="LocationDetailsViewController" customModule="Bubble" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="zua-Bt-mBX">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="zua-Bt-mBX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -190,6 +190,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="p1q-vx-eJ2" kind="push" identifier="PickCategory" id="xhx-OM-e08"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -344,6 +347,48 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N7x-B7-Ssi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-6" y="1529"/>
+        </scene>
+        <!--Category Picker View Controller-->
+        <scene sceneID="RSE-FE-p8a">
+            <objects>
+                <tableViewController id="p1q-vx-eJ2" customClass="CategoryPickerViewController" customModule="Bubble" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="anh-cC-5mN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="eA4-ij-esN" style="IBUITableViewCellStyleDefault" id="UFU-Te-BOl">
+                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UFU-Te-BOl" id="MOZ-Dp-Xps">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eA4-ij-esN">
+                                            <rect key="frame" x="15" y="0.0" width="290" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="8fB-xY-xvo" kind="unwind" identifier="PickedCategory" unwindAction="categoryPickerDidPickCategory:" id="Roo-3T-Hhf"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="p1q-vx-eJ2" id="NNW-cv-D9b"/>
+                            <outlet property="delegate" destination="p1q-vx-eJ2" id="nNx-1J-JaJ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="ucO-je-72D"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WFd-2L-LUF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="8fB-xY-xvo" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="418" y="1529"/>
         </scene>
         <!--活动-->
         <scene sceneID="wg7-f3-ORb">

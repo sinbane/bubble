@@ -18,6 +18,11 @@
 		BC2FEB401BA5932900A5D3C8 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB3F1BA5932900A5D3C8 /* CurrentLocationViewController.swift */; };
 		BCCAFA301BAB40A000765DC7 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCAFA2F1BAB40A000765DC7 /* SocketIO.framework */; };
 		BCCAFA371BAB430400765DC7 /* SocketIO.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCCAFA361BAB430400765DC7 /* SocketIO.framework.dSYM */; };
+		BCCAFA771BAB550600765DC7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCAFA761BAB550600765DC7 /* Alamofire.framework */; };
+		BCCAFA791BAB554900765DC7 /* Alamofire.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCCAFA781BAB554900765DC7 /* Alamofire.framework.dSYM */; };
+		BCE013CD1BB44FF6000A0A42 /* CategoryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE013CC1BB44FF6000A0A42 /* CategoryPickerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BCE013CF1BB47B13000A0A42 /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE013CE1BB47B13000A0A42 /* HudView.swift */; settings = {ASSET_TAGS = (); }; };
+		BCE013D11BB82141000A0A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE013D01BB82141000A0A42 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 		BCECD9511BA6048400981A57 /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECD9501BA6048400981A57 /* LocationDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				BCCAFA791BAB554900765DC7 /* Alamofire.framework.dSYM in CopyFiles */,
 				BCCAFA371BAB430400765DC7 /* SocketIO.framework.dSYM in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,6 +66,11 @@
 		BC2FEB3F1BA5932900A5D3C8 /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
 		BCCAFA2F1BAB40A000765DC7 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = Carthage/Build/iOS/SocketIO.framework; sourceTree = "<group>"; };
 		BCCAFA361BAB430400765DC7 /* SocketIO.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SocketIO.framework.dSYM; path = Carthage/Build/iOS/SocketIO.framework.dSYM; sourceTree = "<group>"; };
+		BCCAFA761BAB550600765DC7 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		BCCAFA781BAB554900765DC7 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/iOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
+		BCE013CC1BB44FF6000A0A42 /* CategoryPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryPickerViewController.swift; sourceTree = "<group>"; };
+		BCE013CE1BB47B13000A0A42 /* HudView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
+		BCE013D01BB82141000A0A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCECD9501BA6048400981A57 /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCCAFA771BAB550600765DC7 /* Alamofire.framework in Frameworks */,
 				BCCAFA301BAB40A000765DC7 /* SocketIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,6 +97,9 @@
 		BC2FEB0D1B9E06B600A5D3C8 = {
 			isa = PBXGroup;
 			children = (
+				BCE013D01BB82141000A0A42 /* Assets.xcassets */,
+				BCCAFA781BAB554900765DC7 /* Alamofire.framework.dSYM */,
+				BCCAFA761BAB550600765DC7 /* Alamofire.framework */,
 				BCCAFA361BAB430400765DC7 /* SocketIO.framework.dSYM */,
 				BCCAFA2F1BAB40A000765DC7 /* SocketIO.framework */,
 				BC2FEB181B9E06B600A5D3C8 /* Bubble */,
@@ -115,6 +130,8 @@
 				BC2FEB191B9E06B600A5D3C8 /* Supporting Files */,
 				BC2FEB3D1BA590C300A5D3C8 /* ChatViewController.swift */,
 				BCECD9501BA6048400981A57 /* LocationDetailsViewController.swift */,
+				BCE013CE1BB47B13000A0A42 /* HudView.swift */,
+				BCE013CC1BB44FF6000A0A42 /* CategoryPickerViewController.swift */,
 			);
 			path = Bubble;
 			sourceTree = "<group>";
@@ -230,6 +247,7 @@
 			files = (
 				BC2FEB231B9E06B600A5D3C8 /* Main.storyboard in Resources */,
 				BC2FEB281B9E06B600A5D3C8 /* LaunchScreen.xib in Resources */,
+				BCE013D11BB82141000A0A42 /* Assets.xcassets in Resources */,
 				BC2FEB251B9E06B600A5D3C8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +269,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/SocketIO.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 			);
 			outputPaths = (
 			);
@@ -269,7 +288,9 @@
 				BC2FEB201B9E06B600A5D3C8 /* EventViewController.swift in Sources */,
 				BC2FEB401BA5932900A5D3C8 /* CurrentLocationViewController.swift in Sources */,
 				BC2FEB1C1B9E06B600A5D3C8 /* AppDelegate.swift in Sources */,
+				BCE013CF1BB47B13000A0A42 /* HudView.swift in Sources */,
 				BC2FEB3E1BA590C300A5D3C8 /* ChatViewController.swift in Sources */,
+				BCE013CD1BB44FF6000A0A42 /* CategoryPickerViewController.swift in Sources */,
 				BC2FEB1E1B9E06B600A5D3C8 /* PlazaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
