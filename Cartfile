@@ -1,2 +1,8 @@
-github "socketio/socket.io-client-swift" ~> 3.0.2
-github "Alamofire/Alamofire" ~> 2.0
+github "socketio/socket.io-client-swift" ~> 3.1.4
+github "Alamofire/Alamofire" ~> 3.0
+github "JohnLui/Pitaya"
+github "SnapKit/SnapKit" >= 0.15.0
+github "robb/Cartography" >= 0.6
+github "stephencelis/SQLite.swift" "master"
+github "SwiftyJSON/SwiftyJSON"
+github "ReactiveCocoa/ReactiveCocoa"

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC197B1A1BBEBAF2008D6110 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC197B191BBEBAF2008D6110 /* LocationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BC197B201BC98938008D6110 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC197B1F1BC98938008D6110 /* LocationCell.swift */; settings = {ASSET_TAGS = (); }; };
 		BC2FEB1C1B9E06B600A5D3C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB1B1B9E06B600A5D3C8 /* AppDelegate.swift */; };
 		BC2FEB1E1B9E06B600A5D3C8 /* PlazaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB1D1B9E06B600A5D3C8 /* PlazaViewController.swift */; };
 		BC2FEB201B9E06B600A5D3C8 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB1F1B9E06B600A5D3C8 /* EventViewController.swift */; };
@@ -16,6 +18,10 @@
 		BC2FEB341B9E06B600A5D3C8 /* BubbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB331B9E06B600A5D3C8 /* BubbleTests.swift */; };
 		BC2FEB3E1BA590C300A5D3C8 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB3D1BA590C300A5D3C8 /* ChatViewController.swift */; };
 		BC2FEB401BA5932900A5D3C8 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB3F1BA5932900A5D3C8 /* CurrentLocationViewController.swift */; };
+		BCB9671C1BB83841002FAA0F /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB9671B1BB83841002FAA0F /* Functions.swift */; settings = {ASSET_TAGS = (); }; };
+		BCB9671F1BB8435F002FAA0F /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCB9671D1BB8435F002FAA0F /* DataModel.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		BCB967221BB846B6002FAA0F /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB967201BB846B6002FAA0F /* Location+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
+		BCB967231BB846B6002FAA0F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB967211BB846B6002FAA0F /* Location.swift */; settings = {ASSET_TAGS = (); }; };
 		BCCAFA301BAB40A000765DC7 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCAFA2F1BAB40A000765DC7 /* SocketIO.framework */; };
 		BCCAFA371BAB430400765DC7 /* SocketIO.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCCAFA361BAB430400765DC7 /* SocketIO.framework.dSYM */; };
 		BCCAFA771BAB550600765DC7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCAFA761BAB550600765DC7 /* Alamofire.framework */; };
@@ -51,6 +57,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BC197B191BBEBAF2008D6110 /* LocationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		BC197B1F1BC98938008D6110 /* LocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		BC2FEB161B9E06B600A5D3C8 /* Bubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2FEB1A1B9E06B600A5D3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC2FEB1B1B9E06B600A5D3C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +72,10 @@
 		BC2FEB331B9E06B600A5D3C8 /* BubbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTests.swift; sourceTree = "<group>"; };
 		BC2FEB3D1BA590C300A5D3C8 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		BC2FEB3F1BA5932900A5D3C8 /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
+		BCB9671B1BB83841002FAA0F /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		BCB9671E1BB8435F002FAA0F /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		BCB967201BB846B6002FAA0F /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BCB967211BB846B6002FAA0F /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		BCCAFA2F1BAB40A000765DC7 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = Carthage/Build/iOS/SocketIO.framework; sourceTree = "<group>"; };
 		BCCAFA361BAB430400765DC7 /* SocketIO.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SocketIO.framework.dSYM; path = Carthage/Build/iOS/SocketIO.framework.dSYM; sourceTree = "<group>"; };
 		BCCAFA761BAB550600765DC7 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
@@ -97,7 +109,6 @@
 		BC2FEB0D1B9E06B600A5D3C8 = {
 			isa = PBXGroup;
 			children = (
-				BCE013D01BB82141000A0A42 /* Assets.xcassets */,
 				BCCAFA781BAB554900765DC7 /* Alamofire.framework.dSYM */,
 				BCCAFA761BAB550600765DC7 /* Alamofire.framework */,
 				BCCAFA361BAB430400765DC7 /* SocketIO.framework.dSYM */,
@@ -120,6 +131,10 @@
 		BC2FEB181B9E06B600A5D3C8 /* Bubble */ = {
 			isa = PBXGroup;
 			children = (
+				BCB967201BB846B6002FAA0F /* Location+CoreDataProperties.swift */,
+				BCB967211BB846B6002FAA0F /* Location.swift */,
+				BCB9671D1BB8435F002FAA0F /* DataModel.xcdatamodeld */,
+				BCE013D01BB82141000A0A42 /* Assets.xcassets */,
 				BC2FEB1B1B9E06B600A5D3C8 /* AppDelegate.swift */,
 				BC2FEB1D1B9E06B600A5D3C8 /* PlazaViewController.swift */,
 				BC2FEB3F1BA5932900A5D3C8 /* CurrentLocationViewController.swift */,
@@ -131,7 +146,10 @@
 				BC2FEB3D1BA590C300A5D3C8 /* ChatViewController.swift */,
 				BCECD9501BA6048400981A57 /* LocationDetailsViewController.swift */,
 				BCE013CE1BB47B13000A0A42 /* HudView.swift */,
+				BCB9671B1BB83841002FAA0F /* Functions.swift */,
 				BCE013CC1BB44FF6000A0A42 /* CategoryPickerViewController.swift */,
+				BC197B191BBEBAF2008D6110 /* LocationsViewController.swift */,
+				BC197B1F1BC98938008D6110 /* LocationCell.swift */,
 			);
 			path = Bubble;
 			sourceTree = "<group>";
@@ -285,12 +303,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCECD9511BA6048400981A57 /* LocationDetailsViewController.swift in Sources */,
+				BCB9671F1BB8435F002FAA0F /* DataModel.xcdatamodeld in Sources */,
+				BCB967221BB846B6002FAA0F /* Location+CoreDataProperties.swift in Sources */,
 				BC2FEB201B9E06B600A5D3C8 /* EventViewController.swift in Sources */,
+				BC197B201BC98938008D6110 /* LocationCell.swift in Sources */,
+				BCB9671C1BB83841002FAA0F /* Functions.swift in Sources */,
 				BC2FEB401BA5932900A5D3C8 /* CurrentLocationViewController.swift in Sources */,
 				BC2FEB1C1B9E06B600A5D3C8 /* AppDelegate.swift in Sources */,
 				BCE013CF1BB47B13000A0A42 /* HudView.swift in Sources */,
+				BC197B1A1BBEBAF2008D6110 /* LocationsViewController.swift in Sources */,
 				BC2FEB3E1BA590C300A5D3C8 /* ChatViewController.swift in Sources */,
 				BCE013CD1BB44FF6000A0A42 /* CategoryPickerViewController.swift in Sources */,
+				BCB967231BB846B6002FAA0F /* Location.swift in Sources */,
 				BC2FEB1E1B9E06B600A5D3C8 /* PlazaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,6 +530,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BCB9671D1BB8435F002FAA0F /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BCB9671E1BB8435F002FAA0F /* DataModel.xcdatamodel */,
+			);
+			currentVersion = BCB9671E1BB8435F002FAA0F /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BC2FEB0E1B9E06B600A5D3C8 /* Project object */;
 }
