@@ -3,12 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC197B1A1BBEBAF2008D6110 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC197B191BBEBAF2008D6110 /* LocationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		BC197B201BC98938008D6110 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC197B1F1BC98938008D6110 /* LocationCell.swift */; settings = {ASSET_TAGS = (); }; };
+		BC17548C1BD6B34E002D1283 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC17548B1BD6B34E002D1283 /* MapKit.framework */; };
+		BC17548E1BD6B491002D1283 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC17548D1BD6B491002D1283 /* MapViewController.swift */; };
+		BC197B1A1BBEBAF2008D6110 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC197B191BBEBAF2008D6110 /* LocationsViewController.swift */; };
+		BC197B201BC98938008D6110 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC197B1F1BC98938008D6110 /* LocationCell.swift */; };
 		BC2FEB1C1B9E06B600A5D3C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB1B1B9E06B600A5D3C8 /* AppDelegate.swift */; };
 		BC2FEB1E1B9E06B600A5D3C8 /* PlazaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB1D1B9E06B600A5D3C8 /* PlazaViewController.swift */; };
 		BC2FEB201B9E06B600A5D3C8 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB1F1B9E06B600A5D3C8 /* EventViewController.swift */; };
@@ -18,17 +20,17 @@
 		BC2FEB341B9E06B600A5D3C8 /* BubbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB331B9E06B600A5D3C8 /* BubbleTests.swift */; };
 		BC2FEB3E1BA590C300A5D3C8 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB3D1BA590C300A5D3C8 /* ChatViewController.swift */; };
 		BC2FEB401BA5932900A5D3C8 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB3F1BA5932900A5D3C8 /* CurrentLocationViewController.swift */; };
-		BCB9671C1BB83841002FAA0F /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB9671B1BB83841002FAA0F /* Functions.swift */; settings = {ASSET_TAGS = (); }; };
-		BCB9671F1BB8435F002FAA0F /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCB9671D1BB8435F002FAA0F /* DataModel.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
-		BCB967221BB846B6002FAA0F /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB967201BB846B6002FAA0F /* Location+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
-		BCB967231BB846B6002FAA0F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB967211BB846B6002FAA0F /* Location.swift */; settings = {ASSET_TAGS = (); }; };
+		BCB9671C1BB83841002FAA0F /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB9671B1BB83841002FAA0F /* Functions.swift */; };
+		BCB9671F1BB8435F002FAA0F /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCB9671D1BB8435F002FAA0F /* DataModel.xcdatamodeld */; };
+		BCB967221BB846B6002FAA0F /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB967201BB846B6002FAA0F /* Location+CoreDataProperties.swift */; };
+		BCB967231BB846B6002FAA0F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB967211BB846B6002FAA0F /* Location.swift */; };
 		BCCAFA301BAB40A000765DC7 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCAFA2F1BAB40A000765DC7 /* SocketIO.framework */; };
 		BCCAFA371BAB430400765DC7 /* SocketIO.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCCAFA361BAB430400765DC7 /* SocketIO.framework.dSYM */; };
 		BCCAFA771BAB550600765DC7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCAFA761BAB550600765DC7 /* Alamofire.framework */; };
 		BCCAFA791BAB554900765DC7 /* Alamofire.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCCAFA781BAB554900765DC7 /* Alamofire.framework.dSYM */; };
-		BCE013CD1BB44FF6000A0A42 /* CategoryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE013CC1BB44FF6000A0A42 /* CategoryPickerViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		BCE013CF1BB47B13000A0A42 /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE013CE1BB47B13000A0A42 /* HudView.swift */; settings = {ASSET_TAGS = (); }; };
-		BCE013D11BB82141000A0A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE013D01BB82141000A0A42 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		BCE013CD1BB44FF6000A0A42 /* CategoryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE013CC1BB44FF6000A0A42 /* CategoryPickerViewController.swift */; };
+		BCE013CF1BB47B13000A0A42 /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE013CE1BB47B13000A0A42 /* HudView.swift */; };
+		BCE013D11BB82141000A0A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE013D01BB82141000A0A42 /* Assets.xcassets */; };
 		BCECD9511BA6048400981A57 /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECD9501BA6048400981A57 /* LocationDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BC17548B1BD6B34E002D1283 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BC17548D1BD6B491002D1283 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		BC197B191BBEBAF2008D6110 /* LocationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
 		BC197B1F1BC98938008D6110 /* LocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		BC2FEB161B9E06B600A5D3C8 /* Bubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC17548C1BD6B34E002D1283 /* MapKit.framework in Frameworks */,
 				BCCAFA771BAB550600765DC7 /* Alamofire.framework in Frameworks */,
 				BCCAFA301BAB40A000765DC7 /* SocketIO.framework in Frameworks */,
 			);
@@ -109,6 +114,7 @@
 		BC2FEB0D1B9E06B600A5D3C8 = {
 			isa = PBXGroup;
 			children = (
+				BC17548B1BD6B34E002D1283 /* MapKit.framework */,
 				BCCAFA781BAB554900765DC7 /* Alamofire.framework.dSYM */,
 				BCCAFA761BAB550600765DC7 /* Alamofire.framework */,
 				BCCAFA361BAB430400765DC7 /* SocketIO.framework.dSYM */,
@@ -150,6 +156,7 @@
 				BCE013CC1BB44FF6000A0A42 /* CategoryPickerViewController.swift */,
 				BC197B191BBEBAF2008D6110 /* LocationsViewController.swift */,
 				BC197B1F1BC98938008D6110 /* LocationCell.swift */,
+				BC17548D1BD6B491002D1283 /* MapViewController.swift */,
 			);
 			path = Bubble;
 			sourceTree = "<group>";
@@ -240,7 +247,7 @@
 				};
 			};
 			buildConfigurationList = BC2FEB111B9E06B600A5D3C8 /* Build configuration list for PBXProject "Bubble" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -315,6 +322,7 @@
 				BC2FEB3E1BA590C300A5D3C8 /* ChatViewController.swift in Sources */,
 				BCE013CD1BB44FF6000A0A42 /* CategoryPickerViewController.swift in Sources */,
 				BCB967231BB846B6002FAA0F /* Location.swift in Sources */,
+				BC17548E1BD6B491002D1283 /* MapViewController.swift in Sources */,
 				BC2FEB1E1B9E06B600A5D3C8 /* PlazaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
