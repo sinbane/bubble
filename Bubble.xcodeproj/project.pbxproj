@@ -20,6 +20,12 @@
 		BC2FEB341B9E06B600A5D3C8 /* BubbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB331B9E06B600A5D3C8 /* BubbleTests.swift */; };
 		BC2FEB3E1BA590C300A5D3C8 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB3D1BA590C300A5D3C8 /* ChatViewController.swift */; };
 		BC2FEB401BA5932900A5D3C8 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB3F1BA5932900A5D3C8 /* CurrentLocationViewController.swift */; };
+		BC74B9D41BE504D400FE4F3E /* BubbleControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74B9D31BE504D400FE4F3E /* BubbleControl.swift */; };
+		BC74B9D61BE56B7B00FE4F3E /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74B9D51BE56B7B00FE4F3E /* UIImage+Resize.swift */; };
+		BC74B9D81BE5706E00FE4F3E /* String+AddText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74B9D71BE5706E00FE4F3E /* String+AddText.swift */; };
+		BC74B9FF1BF0DDCA00FE4F3E /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74B9FE1BF0DDCA00FE4F3E /* MyTabBarController.swift */; };
+		BC74BA011BF0DF1800FE4F3E /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74BA001BF0DF1800FE4F3E /* MyNavigationController.swift */; };
+		BC74BA031BF0E13200FE4F3E /* MyImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74BA021BF0E13200FE4F3E /* MyImagePickerController.swift */; };
 		BCB9671C1BB83841002FAA0F /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB9671B1BB83841002FAA0F /* Functions.swift */; };
 		BCB9671F1BB8435F002FAA0F /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCB9671D1BB8435F002FAA0F /* DataModel.xcdatamodeld */; };
 		BCB967221BB846B6002FAA0F /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB967201BB846B6002FAA0F /* Location+CoreDataProperties.swift */; };
@@ -76,6 +82,12 @@
 		BC2FEB331B9E06B600A5D3C8 /* BubbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTests.swift; sourceTree = "<group>"; };
 		BC2FEB3D1BA590C300A5D3C8 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		BC2FEB3F1BA5932900A5D3C8 /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
+		BC74B9D31BE504D400FE4F3E /* BubbleControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleControl.swift; sourceTree = "<group>"; };
+		BC74B9D51BE56B7B00FE4F3E /* UIImage+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		BC74B9D71BE5706E00FE4F3E /* String+AddText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+AddText.swift"; sourceTree = "<group>"; };
+		BC74B9FE1BF0DDCA00FE4F3E /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		BC74BA001BF0DF1800FE4F3E /* MyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
+		BC74BA021BF0E13200FE4F3E /* MyImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyImagePickerController.swift; sourceTree = "<group>"; };
 		BCB9671B1BB83841002FAA0F /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		BCB9671E1BB8435F002FAA0F /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		BCB967201BB846B6002FAA0F /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -157,6 +169,12 @@
 				BC197B191BBEBAF2008D6110 /* LocationsViewController.swift */,
 				BC197B1F1BC98938008D6110 /* LocationCell.swift */,
 				BC17548D1BD6B491002D1283 /* MapViewController.swift */,
+				BC74B9D31BE504D400FE4F3E /* BubbleControl.swift */,
+				BC74B9D51BE56B7B00FE4F3E /* UIImage+Resize.swift */,
+				BC74B9D71BE5706E00FE4F3E /* String+AddText.swift */,
+				BC74B9FE1BF0DDCA00FE4F3E /* MyTabBarController.swift */,
+				BC74BA001BF0DF1800FE4F3E /* MyNavigationController.swift */,
+				BC74BA021BF0E13200FE4F3E /* MyImagePickerController.swift */,
 			);
 			path = Bubble;
 			sourceTree = "<group>";
@@ -232,7 +250,7 @@
 		BC2FEB0E1B9E06B600A5D3C8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftMigration = 0700;
+				LastSwiftMigration = 0710;
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Sinbane;
@@ -310,8 +328,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCECD9511BA6048400981A57 /* LocationDetailsViewController.swift in Sources */,
+				BC74B9FF1BF0DDCA00FE4F3E /* MyTabBarController.swift in Sources */,
+				BC74BA031BF0E13200FE4F3E /* MyImagePickerController.swift in Sources */,
 				BCB9671F1BB8435F002FAA0F /* DataModel.xcdatamodeld in Sources */,
 				BCB967221BB846B6002FAA0F /* Location+CoreDataProperties.swift in Sources */,
+				BC74B9D81BE5706E00FE4F3E /* String+AddText.swift in Sources */,
 				BC2FEB201B9E06B600A5D3C8 /* EventViewController.swift in Sources */,
 				BC197B201BC98938008D6110 /* LocationCell.swift in Sources */,
 				BCB9671C1BB83841002FAA0F /* Functions.swift in Sources */,
@@ -320,8 +341,11 @@
 				BCE013CF1BB47B13000A0A42 /* HudView.swift in Sources */,
 				BC197B1A1BBEBAF2008D6110 /* LocationsViewController.swift in Sources */,
 				BC2FEB3E1BA590C300A5D3C8 /* ChatViewController.swift in Sources */,
+				BC74BA011BF0DF1800FE4F3E /* MyNavigationController.swift in Sources */,
+				BC74B9D41BE504D400FE4F3E /* BubbleControl.swift in Sources */,
 				BCE013CD1BB44FF6000A0A42 /* CategoryPickerViewController.swift in Sources */,
 				BCB967231BB846B6002FAA0F /* Location.swift in Sources */,
+				BC74B9D61BE56B7B00FE4F3E /* UIImage+Resize.swift in Sources */,
 				BC17548E1BD6B491002D1283 /* MapViewController.swift in Sources */,
 				BC2FEB1E1B9E06B600A5D3C8 /* PlazaViewController.swift in Sources */,
 			);

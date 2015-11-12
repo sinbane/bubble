@@ -73,6 +73,12 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
         }
     }
     
+    /*
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return .LightContent
+    }
+    */
+    
     func showLocationServicesDeniedAlert() {
         let alert = UIAlertController(title: "Location Services Disabled", message: "Please enable location services for this app in Settings.", preferredStyle: .Alert)
         let okAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
@@ -238,25 +244,16 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
     
     func stringFromPlacemark(placemark: CLPlacemark) -> String {
         var line1 = ""
-        if let s = placemark.subThoroughfare {// house number
-            line1 += s + " "
-        }
-        if let s = placemark.thoroughfare {// street name
-            line1 += s
-        }
+        line1.addText(placemark.subThoroughfare, withSeparator: " ")// house number
+        line1.addText(placemark.thoroughfare)// street name
         
         var line2 = ""
-        if let s = placemark.locality {// city
-            line2 += s + " "
-        }
-        if let s = placemark.administrativeArea {// province/state
-            line2 += s + " "
-        }
-        if let s = placemark.postalCode {
-            line2 += s
-        }
+        line2.addText(placemark.locality, withSeparator: " ")// city
+        line2.addText(placemark.administrativeArea, withSeparator: " ")// province/state
+        line2.addText(placemark.postalCode)
         
-        return line1 + "\n" + line2
+        line1.addText(line2, withSeparator: "\n")
+        return line1
     }
     
     func didTimeOut() {
