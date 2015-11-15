@@ -11,6 +11,7 @@
 		BC17548E1BD6B491002D1283 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC17548D1BD6B491002D1283 /* MapViewController.swift */; };
 		BC197B1A1BBEBAF2008D6110 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC197B191BBEBAF2008D6110 /* LocationsViewController.swift */; };
 		BC197B201BC98938008D6110 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC197B1F1BC98938008D6110 /* LocationCell.swift */; };
+		BC2553A41BF8F6600010320C /* Sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = BC2553A31BF8F6600010320C /* Sound.caf */; };
 		BC2FEB1C1B9E06B600A5D3C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB1B1B9E06B600A5D3C8 /* AppDelegate.swift */; };
 		BC2FEB1E1B9E06B600A5D3C8 /* PlazaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB1D1B9E06B600A5D3C8 /* PlazaViewController.swift */; };
 		BC2FEB201B9E06B600A5D3C8 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FEB1F1B9E06B600A5D3C8 /* EventViewController.swift */; };
@@ -69,6 +70,7 @@
 		BC17548D1BD6B491002D1283 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		BC197B191BBEBAF2008D6110 /* LocationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
 		BC197B1F1BC98938008D6110 /* LocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		BC2553A31BF8F6600010320C /* Sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound.caf; sourceTree = "<group>"; };
 		BC2FEB161B9E06B600A5D3C8 /* Bubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2FEB1A1B9E06B600A5D3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC2FEB1B1B9E06B600A5D3C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC2553A21BF8F6600010320C /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				BC2553A31BF8F6600010320C /* Sound.caf */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 		BC2FEB0D1B9E06B600A5D3C8 = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +159,7 @@
 		BC2FEB181B9E06B600A5D3C8 /* Bubble */ = {
 			isa = PBXGroup;
 			children = (
+				BC2553A21BF8F6600010320C /* Sound */,
 				BCB967201BB846B6002FAA0F /* Location+CoreDataProperties.swift */,
 				BCB967211BB846B6002FAA0F /* Location.swift */,
 				BCB9671D1BB8435F002FAA0F /* DataModel.xcdatamodeld */,
@@ -292,6 +303,7 @@
 				BC2FEB281B9E06B600A5D3C8 /* LaunchScreen.xib in Resources */,
 				BCE013D11BB82141000A0A42 /* Assets.xcassets in Resources */,
 				BC2FEB251B9E06B600A5D3C8 /* Images.xcassets in Resources */,
+				BC2553A41BF8F6600010320C /* Sound.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
